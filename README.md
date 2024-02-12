@@ -1,6 +1,6 @@
 # WolfieEats
 
-WolfieEats is on a mission to revolutionize the dining experience at Stony Brook University by providing a one-stop solution to all dining hall needs. This app is designed to tackle common issues like long wait times and limited meal planning capabilities, streamlining the process with technology.
+WolfieEats is on a mission to revolutionize the dining experience at Stony Brook University by providing a one-stop solution to all dining hall needs. This app is engineered within the Swift frameworks to tackle common issues like long wait times and limited meal planning capabilities, streamlining the process with technology
 
 ## Features
 
