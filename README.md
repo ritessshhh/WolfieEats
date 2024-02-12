@@ -16,6 +16,10 @@ WolfieEats is on a mission to revolutionize the dining experience at Stony Brook
 
 - **Join the Queue Feature**: To utilize the 'Join the Queue' feature, a physical device with a camera is required. This feature uses the device's camera to scan QR codes for queue management, making it unsuitable for use on simulators.
 
+## Visual Tour
+
+Check out the attached PDF in the repository for a visual tour of WolfieEats
+
 ## Getting Started
 
 ### Prerequisites
