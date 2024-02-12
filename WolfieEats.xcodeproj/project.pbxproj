@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D371FF2C2B7A7302002FB533 /* WolfieEatsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FF2B2B7A7302002FB533 /* WolfieEatsApp.swift */; };
+		D371FF2E2B7A7302002FB533 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FF2D2B7A7302002FB533 /* ContentView.swift */; };
+		D371FF302B7A7306002FB533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D371FF2F2B7A7306002FB533 /* Assets.xcassets */; };
+		D371FF332B7A7306002FB533 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D371FF322B7A7306002FB533 /* Preview Assets.xcassets */; };
+		D371FF3D2B7A7307002FB533 /* WolfieEatsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FF3C2B7A7307002FB533 /* WolfieEatsTests.swift */; };
+		D371FF472B7A7307002FB533 /* WolfieEatsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FF462B7A7307002FB533 /* WolfieEatsUITests.swift */; };
+		D371FF492B7A7307002FB533 /* WolfieEatsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D371FF482B7A7307002FB533 /* WolfieEatsUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D371FF392B7A7307002FB533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D371FF202B7A7302002FB533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D371FF272B7A7302002FB533;
+			remoteInfo = WolfieEats;
+		};
+		D371FF432B7A7307002FB533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D371FF202B7A7302002FB533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D371FF272B7A7302002FB533;
+			remoteInfo = WolfieEats;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D371FF282B7A7302002FB533 /* WolfieEats.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WolfieEats.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D371FF2B2B7A7302002FB533 /* WolfieEatsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfieEatsApp.swift; sourceTree = "<group>"; };
+		D371FF2D2B7A7302002FB533 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D371FF2F2B7A7306002FB533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D371FF322B7A7306002FB533 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D371FF382B7A7307002FB533 /* WolfieEatsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WolfieEatsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D371FF3C2B7A7307002FB533 /* WolfieEatsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfieEatsTests.swift; sourceTree = "<group>"; };
+		D371FF422B7A7307002FB533 /* WolfieEatsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WolfieEatsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D371FF462B7A7307002FB533 /* WolfieEatsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfieEatsUITests.swift; sourceTree = "<group>"; };
+		D371FF482B7A7307002FB533 /* WolfieEatsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WolfieEatsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D371FF252B7A7302002FB533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D371FF352B7A7307002FB533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D371FF3F2B7A7307002FB533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D371FF1F2B7A7302002FB533 = {
+			isa = PBXGroup;
+			children = (
+				D371FF2A2B7A7302002FB533 /* WolfieEats */,
+				D371FF3B2B7A7307002FB533 /* WolfieEatsTests */,
+				D371FF452B7A7307002FB533 /* WolfieEatsUITests */,
+				D371FF292B7A7302002FB533 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D371FF292B7A7302002FB533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D371FF282B7A7302002FB533 /* WolfieEats.app */,
+				D371FF382B7A7307002FB533 /* WolfieEatsTests.xctest */,
+				D371FF422B7A7307002FB533 /* WolfieEatsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D371FF2A2B7A7302002FB533 /* WolfieEats */ = {
+			isa = PBXGroup;
+			children = (
+				D371FF2B2B7A7302002FB533 /* WolfieEatsApp.swift */,
+				D371FF2D2B7A7302002FB533 /* ContentView.swift */,
+				D371FF2F2B7A7306002FB533 /* Assets.xcassets */,
+				D371FF312B7A7306002FB533 /* Preview Content */,
+			);
+			path = WolfieEats;
+			sourceTree = "<group>";
+		};
+		D371FF312B7A7306002FB533 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D371FF322B7A7306002FB533 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D371FF3B2B7A7307002FB533 /* WolfieEatsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D371FF3C2B7A7307002FB533 /* WolfieEatsTests.swift */,
+			);
+			path = WolfieEatsTests;
+			sourceTree = "<group>";
+		};
+		D371FF452B7A7307002FB533 /* WolfieEatsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D371FF462B7A7307002FB533 /* WolfieEatsUITests.swift */,
+				D371FF482B7A7307002FB533 /* WolfieEatsUITestsLaunchTests.swift */,
+			);
+			path = WolfieEatsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D371FF272B7A7302002FB533 /* WolfieEats */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D371FF4C2B7A7307002FB533 /* Build configuration list for PBXNativeTarget "WolfieEats" */;
+			buildPhases = (
+				D371FF242B7A7302002FB533 /* Sources */,
+				D371FF252B7A7302002FB533 /* Frameworks */,
+				D371FF262B7A7302002FB533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WolfieEats;
+			productName = WolfieEats;
+			productReference = D371FF282B7A7302002FB533 /* WolfieEats.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D371FF372B7A7307002FB533 /* WolfieEatsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D371FF4F2B7A7307002FB533 /* Build configuration list for PBXNativeTarget "WolfieEatsTests" */;
+			buildPhases = (
+				D371FF342B7A7307002FB533 /* Sources */,
+				D371FF352B7A7307002FB533 /* Frameworks */,
+				D371FF362B7A7307002FB533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D371FF3A2B7A7307002FB533 /* PBXTargetDependency */,
+			);
+			name = WolfieEatsTests;
+			productName = WolfieEatsTests;
+			productReference = D371FF382B7A7307002FB533 /* WolfieEatsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D371FF412B7A7307002FB533 /* WolfieEatsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D371FF522B7A7307002FB533 /* Build configuration list for PBXNativeTarget "WolfieEatsUITests" */;
+			buildPhases = (
+				D371FF3E2B7A7307002FB533 /* Sources */,
+				D371FF3F2B7A7307002FB533 /* Frameworks */,
+				D371FF402B7A7307002FB533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D371FF442B7A7307002FB533 /* PBXTargetDependency */,
+			);
+			name = WolfieEatsUITests;
+			productName = WolfieEatsUITests;
+			productReference = D371FF422B7A7307002FB533 /* WolfieEatsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D371FF202B7A7302002FB533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D371FF272B7A7302002FB533 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					D371FF372B7A7307002FB533 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D371FF272B7A7302002FB533;
+					};
+					D371FF412B7A7307002FB533 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D371FF272B7A7302002FB533;
+					};
+				};
+			};
+			buildConfigurationList = D371FF232B7A7302002FB533 /* Build configuration list for PBXProject "WolfieEats" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D371FF1F2B7A7302002FB533;
+			productRefGroup = D371FF292B7A7302002FB533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D371FF272B7A7302002FB533 /* WolfieEats */,
+				D371FF372B7A7307002FB533 /* WolfieEatsTests */,
+				D371FF412B7A7307002FB533 /* WolfieEatsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D371FF262B7A7302002FB533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D371FF332B7A7306002FB533 /* Preview Assets.xcassets in Resources */,
+				D371FF302B7A7306002FB533 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D371FF362B7A7307002FB533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D371FF402B7A7307002FB533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D371FF242B7A7302002FB533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D371FF2E2B7A7302002FB533 /* ContentView.swift in Sources */,
+				D371FF2C2B7A7302002FB533 /* WolfieEatsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D371FF342B7A7307002FB533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D371FF3D2B7A7307002FB533 /* WolfieEatsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D371FF3E2B7A7307002FB533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D371FF472B7A7307002FB533 /* WolfieEatsUITests.swift in Sources */,
+				D371FF492B7A7307002FB533 /* WolfieEatsUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D371FF3A2B7A7307002FB533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D371FF272B7A7302002FB533 /* WolfieEats */;
+			targetProxy = D371FF392B7A7307002FB533 /* PBXContainerItemProxy */;
+		};
+		D371FF442B7A7307002FB533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D371FF272B7A7302002FB533 /* WolfieEats */;
+			targetProxy = D371FF432B7A7307002FB533 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D371FF4A2B7A7307002FB533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D371FF4B2B7A7307002FB533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D371FF4D2B7A7307002FB533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WolfieEats/Preview Content\"";
+				DEVELOPMENT_TEAM = TV6J7XTMZQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stomataTech.WolfieEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D371FF4E2B7A7307002FB533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WolfieEats/Preview Content\"";
+				DEVELOPMENT_TEAM = TV6J7XTMZQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stomataTech.WolfieEats;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D371FF502B7A7307002FB533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TV6J7XTMZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stomataTech.WolfieEatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WolfieEats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WolfieEats";
+			};
+			name = Debug;
+		};
+		D371FF512B7A7307002FB533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TV6J7XTMZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stomataTech.WolfieEatsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WolfieEats.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WolfieEats";
+			};
+			name = Release;
+		};
+		D371FF532B7A7307002FB533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TV6J7XTMZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stomataTech.WolfieEatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WolfieEats;
+			};
+			name = Debug;
+		};
+		D371FF542B7A7307002FB533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TV6J7XTMZQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = stomataTech.WolfieEatsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WolfieEats;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D371FF232B7A7302002FB533 /* Build configuration list for PBXProject "WolfieEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D371FF4A2B7A7307002FB533 /* Debug */,
+				D371FF4B2B7A7307002FB533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D371FF4C2B7A7307002FB533 /* Build configuration list for PBXNativeTarget "WolfieEats" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D371FF4D2B7A7307002FB533 /* Debug */,
+				D371FF4E2B7A7307002FB533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D371FF4F2B7A7307002FB533 /* Build configuration list for PBXNativeTarget "WolfieEatsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D371FF502B7A7307002FB533 /* Debug */,
+				D371FF512B7A7307002FB533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D371FF522B7A7307002FB533 /* Build configuration list for PBXNativeTarget "WolfieEatsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D371FF532B7A7307002FB533 /* Debug */,
+				D371FF542B7A7307002FB533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D371FF202B7A7302002FB533 /* Project object */;
+}
