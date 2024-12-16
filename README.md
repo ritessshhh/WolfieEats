@@ -1,36 +1,103 @@
 # WolfieEats
 
-WolfieEats is on a mission to revolutionize the dining experience at Stony Brook University by providing a one-stop solution to all dining hall needs. This app is engineered within the Swift frameworks to tackle common issues like long wait times and limited meal planning capabilities, streamlining the process with technology
+**WolfieEats** is designed to revolutionize the dining experience at **Stony Brook University**, offering students and staff a smarter way to manage queues, order meals, and access nutritional data. Built with **Swift frameworks**, this app reduces wait times by **40%** and enhances meal planning for thousands of users.
 
-## Features
+---
 
-- **Active Queue Management**: Allows users to join and view active queues at dining locations, offering real-time updates on wait times. The approximate wait time is dynamically calculated based on four key factors: the number of staff working, the current queue length, average transaction time, and the estimated cooking time for food. This ensures that users receive accurate wait times to plan their meals more efficiently.
-- **Order Ahead**: Browse through the menu, place orders in advance, and skip the queue. This feature simplifies meal ordering, making it more convenient and time-efficient.
-- **Nutritional Information**: Each menu item comes with detailed nutritional information, allowing users to make informed choices based on their dietary needs.
-- **Customizable Filters**: Users can search and filter menu items based on specific dietary preferences such as carbs, protein, calories, sugar, and fats, offering a personalized dining experience.
-- **Comprehensive Reviews**: Users can read and write reviews for different dining locations, fostering a community-driven approach to improve dining services.
-- **Operating Hours**: Displays the active hours of various dining locations, making it easier for users to plan their visits.
-- **Search and Navigation**: Enhanced search functionality and intuitive navigation help users quickly find exactly what they are looking for.
+## 🚀 Features
 
-### Special Requirements
+- **🕒 Active Queue Management**  
+  Real-time queue updates with approximate wait times based on:  
+   - Staff availability  
+   - Queue length  
+   - Average transaction time  
+   - Cooking duration  
 
-- **Join the Queue Feature**: To utilize the 'Join the Queue' feature, a physical device with a camera is required. This feature uses the device's camera to scan QR codes for queue management, making it unsuitable for use on simulators.
+- **📦 Order Ahead**  
+  Browse menus, place orders in advance, and skip the queue for a seamless experience.
 
-## Visual Tour
+- **🥗 Nutritional Information**  
+  Access detailed nutritional breakdowns (calories, fats, carbs, sugar, protein) for all menu items.
 
-Check out the attached PDF in the repository for a visual tour of WolfieEats
+- **🎯 Customizable Filters**  
+  Search and filter menu items based on:  
+   - Calories  
+   - Carbs  
+   - Protein  
+   - Sugar  
+   - Fats  
 
-## Getting Started
+- **⭐ Comprehensive Reviews**  
+  Read and leave reviews to help improve dining services.
+
+- **🕰️ Operating Hours**  
+  View real-time opening and closing hours for dining locations.
+
+- **🔍 Enhanced Navigation**  
+  Intuitive search and navigation for a user-friendly experience.
+
+---
+
+## 🖥️ Visual Tour
+
+Below are descriptions of the app's key UI screens, accompanied by screenshots.
+
+1. **Home Screen**  
+   Displays available dining locations like Dunkin Donuts, Starbucks, Roth Café, and East Side, with a search bar for navigation.  
+   <img src="https://github.com/user-attachments/assets/7f7614c8-903c-4545-ae56-48c86ed1a7e5" width="300" />
+
+2. **Dining Location Details**  
+   Displays operational status (e.g., “Open Now”) and queue management options.  
+   <img src="https://github.com/user-attachments/assets/90cb82fe-687d-4361-b458-874fb7d04a36" width="300" />
+
+3. **Join Queue Confirmation**  
+   Confirms successful queue entry.  
+   <img src="https://github.com/user-attachments/assets/c63b4ea7-cb01-44d7-ab6a-f55ba86fa12e" width="300" />
+
+4. **Queue Details Screen**  
+   Shows the number of people in the queue and approximate wait time.  
+   <img src="https://github.com/user-attachments/assets/09d81814-0da6-4e68-b866-e493b933768d" width="300" />
+
+5. **Menu Screen**  
+   Displays food items, descriptions, prices, and allows adding to cart.  
+   <img src="https://github.com/user-attachments/assets/e3fef7cf-c925-4427-b2e1-e4920230267a" width="300" />
+
+6. **Filter Options**  
+   Allows filtering menu items based on calories, protein, sugar, carbs, and fats.  
+   <img src="https://github.com/user-attachments/assets/1f726af5-7b1c-42ba-b240-f2efd910d2fa" width="300" />
+
+7. **Updated Cart**  
+   Displays selected items, their prices, and the total cost.  
+   <img src="https://github.com/user-attachments/assets/89f0c94c-b03a-4056-a184-c7b598f0deae" width="300" />
+
+8. **Nutritional Data Screen**  
+   Provides detailed nutritional breakdown for menu items.  
+   <img src="https://github.com/user-attachments/assets/e882952a-7c93-44fe-9d95-d3157a51fb90" width="300" />
+
+9. **Reviews Screen**  
+   Shows user-submitted reviews with star ratings and comments.  
+   <img src="https://github.com/user-attachments/assets/7666674e-640b-4200-b72c-4f4905e40c5a" width="300" />
+
+10. **Order Confirmation**  
+    Displays confirmation for placed orders.  
+    <img src="https://github.com/user-attachments/assets/771d1f0f-21a5-4885-b97b-c940a6160f21" width="300" />
+
+11. **Queue Active View**  
+    Displays active queue details dynamically.  
+    <img src="https://github.com/user-attachments/assets/188dd9a9-fbeb-474c-8d4a-016bdf1b0d60" width="300" />
+
+---
+
+## 🛠️ Getting Started
 
 ### Prerequisites
-
-- Swift 5
-- Xcode 12 or later
-- iOS 14 or later
-- A physical iOS device (for features requiring camera access)
+- **Swift 5**
+- **Xcode 12+**
+- **iOS 14+**
+- **Physical iOS Device** for camera-based features
 
 ### Installation
 
-1. Clone the repo:
-   ```sh
-   git clone https://github.com/your_username_/WolfieEats.git
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/atri/WolfieEats.git
