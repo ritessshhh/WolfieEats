@@ -100,4 +100,4 @@ Below are descriptions of the app's key UI screens, accompanied by screenshots.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/atri/WolfieEats.git
+   git clone https://github.com/Atri-lab/WolfieEats.git
